@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>歌单</title>
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+		<!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+		<!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+		<style type="text/css">
+			body {
+				counter-reset: section;
+				font-size: 16px;
+			}
+
+
+			.row p:before {
+				counter-increment: section;
+				content: counter(section) ". ";
+			}
+			
+		</style>
+
+	</head>
+	<body>
+		<div class="page-header">
+			<h1>Ariel's Playlist <span class="glyphicon glyphicon-music" aria-hidden="true"></span><small> Choose what you love</small></h1>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-4">
+				<p><a href="#">爱</a></p>
+				<p><a href="#">默</a></p>
+				<p><a href="#">画</a></p>
+				<p><a href="#">淘汰</a></p>
+				<p><a href="#">泡沬</a></p>
+				<p><a href="#">倒数</a></p>
+				<p><a href="#">再见</a></p>
+				<p><a href="#">她说</a></p>
+				<p><a href="#">年轮</a></p>
+				<p><a href="#">太阳</a></p>
+				<p><a href="#">心动</a></p>
+				<p><a href="#">浪费</a></p>
+				<p><a href="#">短发</a></p>
+				<p><a href="#">原点</a></p>
+				<p><a href="#">晚婚</a></p>
+				<p><a href="#">后来</a></p>
+				<p><a href="#">真实</a></p>
+				<p><a href="#">遇见</a></p>
+				<p><a href="#">房间</a></p>
+				<p><a href="#">体面</a></p>
+				<p><a href="#">雨爱</a></p>
+				<p><a href="#">搁浅</a></p>
+				<p><a href="#">慢慢</a></p>
+				<p><a href="#">长腿叔叔 </a></p>
+				<p><a href="#">呼吸决定 </a></p>
+				<p><a href="#">夏天的风 </a></p>
+				<p><a href="#">修炼爱情 </a></p>
+				<p><a href="#">你敢不敢 </a></p>
+				<p><a href="#">当你老了 </a></p>
+				<p><a href="#">失落沙洲 </a></p>
+				<p><a href="#">身骑白马 </a></p>
+				<p><a href="#">连名带姓 </a></p>
+				<p><a href="#">言不甶衷 </a></p>
+				<p><a href="#">一爱难求 </a></p>
+				<p><a href="#">阿楚姑娘 </a></p>
+				<p><a href="#">新不了情 </a></p>
+				<p><a href="#">忽然之间 </a></p>
+				<p><a href="#">岁月神偷 </a></p>
+				<p><a href="#">匆匆那年 </a></p>
+				<p><a href="#">开始懂了 </a></p>
+				<p><a href="#">love song </a></p>
+				<p><a href="#">ps.我爱你 </a></p>
+				<p><a href="#">拿走了什么 </a></p>
+				<p><a href="#">你给我听好 </a></p>
+				<p><a href="#">有你的快乐</a></p>
+				<p><a href="#">想着你的感觉 </a></p>
+				<p><a href="#">如果你也听说 </a></p>
+				<p><a href="#">来自天堂的魔鬼 </a></p>
+				<p><a href="#">多远都要在一起 </a></p>
+				<p><a href="#">我要我们在一起 </a></p>
+				<p><a href="#">我知道你很难过 </a></p>
+
+				<p><a href="#">给我一个理由忘记 </a></p>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<p><a href="#">红玫瑰</a></p>
+				<p><a href="#">海芋恋</a></p>
+				<p><a href="#">爱爱爱</a></p>
+				<p><a href="#">喜欢你</a></p>
+				<p><a href="#">潜蓝色</a></p>
+				<p><a href="#">从前慢</a></p>
+				<p><a href="#">想自由</a></p>
+				<p><a href="#">想见你</a></p>
+				<p><a href="#">莉莉安</a></p>
+				<p><a href="#">年轮说</a></p>
+				<p><a href="#">空白格</a></p>
+				<p><a href="#">关键词</a></p>
+				<p><a href="#">小幸运</a></p>
+				<p><a href="#">小永远</a></p>
+				<p><a href="#">追光者</a></p>
+				<p><a href="#">刚刚好</a></p>
+				<p><a href="#">我爱他</a></p>
+				<p><a href="#">我要你</a></p>
+				<p><a href="#">我的梦</a></p>
+				<p><a href="#">秋意浓</a></p>
+				<p><a href="#">水星记</a></p>
+				<p><a href="#">红颜旧</a></p>
+				<p><a href="#">爱笑的眼睛 </a></p>
+				<p><a href="#">爱你的宿命 </a></p>
+				<p><a href="#">一路上有你 </a></p>
+				<p><a href="#">一直很安静 </a></p>
+				<p><a href="#">一样的月光 </a></p>
+				<p><a href="#">一万次悲伤 </a></p>
+				<p><a href="#">有一种悲伤 </a></p>
+				<p><a href="#">淋雨一直走 </a></p>
+				<p><a href="#">全世界失眠 </a></p>
+				<p><a href="#">还可以爱吗 </a></p>
+				<p><a href="#">旅行中忘记 </a></p>
+				<p><a href="#">旅行的意义 </a></p>
+				<p><a href="#">慢慢喜欢你 </a></p>
+				<p><a href="#">红色高跟鞋 </a></p>
+				<p><a href="#">别找我麻烦 </a></p>
+				<p><a href="#">被驯服的象 </a></p>
+				<p><a href="#">如果没有你 </a></p>
+				<p><a href="#">如果有来生 </a></p>
+				<p><a href="#">可惜不是你 </a></p>
+				<p><a href="#">终于等到你 </a></p>
+				<p><a href="#">最长的电影 </a></p>
+				<p><a href="#">我的歌声里</a></p>
+				<p><a href="#">十万毫升泪水 </a></p>
+
+				<p><a href="#">你就不要想起我 </a></p>
+				<p><a href="#">听见下雨的声音 </a></p>
+				<p><a href="#">漂洋过海来看你 </a></p>
+				<p><a href="#">为你我受冷风吹 </a></p>
+				<p><a href="#">不要忘记我爱你 </a></p>
+				<p><a href="#">她来听我的演唱会 </a></p>
+				<p><a href="#">那些你很冒险的梦 </a></p>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<p><a href="#">忘记拥抱</a></p>
+				<p><a href="#">失恋无罪</a></p>
+				<p><a href="#">光年之外</a></p>
+				<p><a href="#">我的秘密</a></p>
+				<p><a href="#">我怀念的</a></p>
+				<p><a href="#">我好想你</a></p>
+				<p><a href="#">我要快乐</a></p>
+				<p><a href="#">我不难过</a></p>
+				<p><a href="#">后会无期</a></p>
+				<p><a href="#">新的心跳</a></p>
+				<p><a href="#">一吻之间</a></p>
+				<p><a href="#">时间有泪</a></p>
+				<p><a href="#">袖手旁观</a></p>
+				<p><a href="#">白芍花开</a></p>
+				<p><a href="#">那个男人</a></p>
+				<p><a href="#">不散不见</a></p>
+				<p><a href="#">他不爱我</a></p>
+				<p><a href="#">爱是怀疑</a></p>
+				<p><a href="#">爱的可能</a></p>
+				<p><a href="#">心有独钟</a></p>
+				<p><a href="#">无人之岛</a></p>
+				<p><a href="#">最美的期待 </a></p>
+				<p><a href="#">突然好想你 </a></p>
+				<p><a href="#">突然想爱你 </a></p>
+				<p><a href="#">越来越不懂 </a></p>
+				<p><a href="#">易燃易爆炸 </a></p>
+				<p><a href="#">柠檬草的味道 </a></p>
+				<p><a href="#">好朋友的祝福 </a></p>
+				<p><a href="#">我可以忘记你 </a></p>
+				<p><a href="#">我变了我没变 </a></p>
+				<p><a href="#">写不完的温柔 </a></p>
+				<p><a href="#">你不知道的事 </a></p>
+				<p><a href="#">beautiful love </a></p>
+				<p><a href="#">流着泪说分手 </a></p>
+				<p><a href="#">思念是一种病 </a></p>
+				<p><a href="#">十万毫升泪水 </a></p>
+				<p><a href="#">想着你的感觉 </a></p>
+				<p><a href="#">如果你也听说 </a></p>
+				<p><a href="#">来自天堂的魔鬼 </a></p>
+				<p><a href="#">多远都要在一起 </a></p>
+				<p><a href="#">我要我们在一起 </a></p>
+				<p><a href="#">我知道你很难过 </a></p>
+				<p><a href="#">你就不要想起我 </a></p>
+				<p><a href="#">听IP.下雨的声咅</a></p>
+				<p><a href="#">思念是一种病 </a></p>
+				<p><a href="#">我等到花儿也谢了 </a></p>
+				<p><a href="#">如果一切没有发生过 </a></p>
+				<p><a href="#">原来你什么都不想要 </a></p>
+				<p><a href="#">我在人民广场吃炸鸡 </a></p>
+				<p><a href="#">输了你嬴了世界又如何</a></p>
+				<p><a href="#">暑臾芒(忘记他的这件事)</a></p>
+			</div>
+
+
+		</div>
+		<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("a").click(() => {
+					return false
+				});
+			});
+		</script>
+	</body>
+</html>
